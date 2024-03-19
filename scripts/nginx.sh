@@ -3,6 +3,7 @@
 
 sudo systemctl daemon-reload
 sudo rm -f /etc/nginx/sites-enabled/default
+sudo rm -f /etc/nginx/sites-available/default
 
 sudo cp /home/ubuntu/dekhoghar/nginx/nginx.conf /etc/nginx/sites-available/default
 sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
