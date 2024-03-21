@@ -6,7 +6,7 @@ After=network.target
 User=ubuntu
 Group=www-data
 WorkingDirectory=/home/ubuntu/dekhoghar
-ExecStart=/home/ubuntu/env/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/ubuntu/dekhoghar/GharDekho/GharDekh.sock GharDekho.wsgi:application
+ExecStart=/home/ubuntu/env/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/ubuntu/dekhoghar/dekhoghar/dekhoghar.sock dekhoghar.wsgi:application
 
        
 [Install]

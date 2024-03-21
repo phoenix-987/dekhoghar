@@ -5,7 +5,7 @@ from django.core.mail import EmailMessage
 class SendMail:
     @staticmethod
     def send_email(user_name, user_email, reset_uri):
-        email_subject = 'GharDekho: Link to Reset Password'
+        email_subject = 'DekhoGhar: Link to Reset Password'
         email_body = (f'Hi {user_name},\nWe have received your request to reset the password. You can click on the '
                       f'link to reset your password: {reset_uri}')
 

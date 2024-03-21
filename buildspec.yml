@@ -4,8 +4,8 @@ environment_variables:
   plaintext:
     DATABASE_PORT: 5432
     DATABASE_HOST: dekhoghar.cp6i8ucy2yb8.us-east-1.rds.amazonaws.com
-    DATABASE_NAME: ghardekho
-    DATABASE_USER: dekhoghar
+    DATABASE_NAME: dekhoghar
+    DATABASE_USER: postgres
     DATABASE_PASSWORD: postgres
     REGION_NAME: None
     AWS_S3_BUCKET: None
@@ -17,7 +17,7 @@ environment_variables:
     EMAIL_USER: naman.j@consultadd.com
     EMAIL_PASSWORD: tgojqoefnahfckyx
     EMAIL_FROM: naman.j@consultadd.com
-    RESET_URI: http://35.170.246.237/api/user/reset
+    RESET_URI: http://54.144.70.194/api/user/reset
 
 phases:
   pre_build:
