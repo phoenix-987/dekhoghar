@@ -14,9 +14,9 @@ environment_variables:
     EMAIL_BACKEND: django.core.mail.backends.smtp.EmailBackend
     EMAIL_HOST: smtp.gmail.com
     EMAIL_PORT: 587
-    EMAIL_USER: naman.j@consultadd.com
-    EMAIL_PASSWORD: tgojqoefnahfckyx
-    EMAIL_FROM: naman.j@consultadd.com
+    EMAIL_USER: naman.j@example.com
+    EMAIL_PASSWORD: qoefnahfckyxtgoj
+    EMAIL_FROM: naman.j@example.com
     RESET_URI: http://54.144.70.194/api/user/reset
 
 phases:
